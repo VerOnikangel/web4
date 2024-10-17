@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>САЙТ ЛУЧШЕ ЧЕМ У ТУРОВА ВЛАДИСЛАВА</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="d-flex flex-column align-items-center">
+    <header class="container-fluid">
+        <div class="row row-cols-1 row-cols-md-2 justify-content-center justify-content-md-between">
+            <div class="header-case m-0 ms-md-1 col-md-auto d-flex align-items-center justify-content-center m-3">
+                <img class="logo mx-3 m-mr-2" src="kotyara.jpg" alt="Бобр">
+                <div class="nazvanie p-3">
+                    <h3>САЙТ ЛУЧШЕ ЧЕМ У ТУРОВА ВЛАДИСЛАВА</h3>
+                </div>
+            </div>
+            <nav class="menu mt-1 mt-md-0 p-2 col-auto d-flex flex-column flex-md-row align-items-center ">
+                <div class="move mx-2"><a href ="#hiper">Список гиперссылок </a></div>
+                <div class="move mx-2"><a href ="#tabl">Таблица </a></div>
+                <div class="move mx-2"><a href ="#forma">Форма</a></div>
+            </nav>
+        </div>
+    </header>
+    <div class="content d-flex flex-column">
+        <div class="hiper m-2 p-2 m-md-3" id="hiper">
+            <ul>
+                <li><a href="http://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ</a></li>
+                <li><a href="https://www.kubsu.ru/" title="Официальный сайт Кубанского государственного университета">КубГУ https</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">
+                    <img src="kotyara.jpg" alt="Бобр" height="100">
+                </a></li>
+                <li><a href="dva.html">ВНУТРЕННЯ ССЫЛКА</a></li>
+                <li><a href="#important">Ссылка на важный фрагмент текущей страницы</a></li>
+                <li><a href="dva.html?ip=12345&pp=54321&op=228">Ссылка с 3 параметрами url</a></li>
+                <li><a href="dva.html?id=666">Ссылка с параметром id</a></li>
+                <li><a href="./dva.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+                <li><a href="./about/tri.html">Страница в каталоге about</a></li>
+                <li>
+                    <p>
+                        Это информация <a href="https://habr.com/ru/companies/tuturu/articles/673040/">про бобров в тексте</a> в тексте абзаца.
+                    </p>
+                </li>
+                <li><a href="https://ru.wikipedia.org/w/index.php?title=Обыкновенный_бобр&veaction=edit&section=3">Ссылка на фрагмент страницы стороннего сайта</a></li>
+                <li>
+                    <span>Ссылки из прямоугольных и круглых областей</span><br>
+                    <map name="map0">
+                        <area shape="rect" alt="Прямоугольная область 1" coords="0,0,201,21" href="#area1">
+                        <area shape="rect" alt="Прямоугольная область 2" coords="0,21,70,102" href="#area2">
+                        <area shape="circle" alt="Круглая область" coords="90,50,45" href="#area3">
+                        <area shape="rect" alt="Прямоугольная область 3" coords="0,0,201,102" href="#area4">
+                    </map>
+                    <img src="kotyara.jpg" width="201" height="102" usemap="#map0" alt="Бобр">
+                </li>
+                <li><a href="#">Ссылка с пустым href</a></li>
+                <li><a href="#">Ссылка без href</a></li>
+                <li><a href="https://www.kubsu.ru/" rel="nofollow">Запрещен переход поисковикам</a></li>
+                <li><a href="https://www.kubsu.ru/" rel="noindex">Запрещенная для индексации поисковиками</a></li>
+                <li>
+                    <ol>
+                        <li><a href="index.html" title="Первая">Первая</a></li>
+                        <li><a href="index.html" title="Вторая">Вторая</a></li>
+                        <li><a href="index.html" title="Третья">Третья</a></li>
+                    </ol>
+                </li>
+                <li><a href="ftp://username:password@ftp.sobaka.com/path/to/file">Ссылка на файл на сервере FTP с авторизацией</a></li>
+            </ul>
+        </div>
+        <div class="tabl m-2 p-2 m-md-3" id="tabl">
+            <table>
+                <caption>Results for 48th ICPC World Finals</caption>
+            <thead>
+                <tr>
+                    <th>Place</th>
+                    <th>Team</th>
+                    <th>Award</th>
+                    <th>Solved problems</th>
+                    <th>Total time</th>
+                    <th>Time of last accepted submission</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Peking University</td>
+                    <td>Gold Medal</td>
+                    <td>9</td>
+                    <td>935</td>
+                    <td>241</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Moscow Institute of Physics and Technology</td>
+                    <td>Gold Medal</td>
+                    <td>9</td>
+                    <td>1212</td>
+                    <td>249</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Tsinghua University</td>
+                    <td>Gold Medal</td>
+                    <td>9</td>
+                    <td>1218</td>
+                    <td>244</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>KAIST</td>
+                    <td>Silver Medal</td>
+                    <td>8</td>
+                    <td>868</td>
+                    <td>254</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>National University of Singapore</td>
+                    <td>Silver Medal</td>
+                    <td>8</td>
+                    <td>934</td>
+                    <td>254</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="6">Problem G: Kindergarten not solved</td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+        <div class="forma m-2 p-2 m-md-3" id="forma">
+            <h1>Форма</h1>
+            <form action="/" method="POST">
+                <label for="field-name-1">
+                    ФИО:<br>
+                    <input id="field-name-1" name="field-name-1" placeholder="Петров Пётр Петрович" required>
+                </label><br>
+                <label for="phone">
+                    Телефон:<br>
+                    <input id="phone" type="tel" name="phone" placeholder="+7 (988) 987-65-43" required>
+                </label><br>
+                <label for="field-email">
+                    Электронная почта:<br>
+                    <input id="field-email" name="field-email" type="email" placeholder="abcd@gmail.com" required>
+                </label><br>
+                <label for="field-date">
+                    Дата рождения:<br>
+                    <input id="field-date" name="field-date" type="date" required>
+                </label><br>
+
+                    Выберите пол:<br>
+                    <label for="male">
+                        <input id="male" type="radio" name="radio-group-1" value="Мужской" required> Мужской
+                    </label><br>
+                    <label for="female">
+                        <input id="female" type="radio" name="radio-group-1" value="Женский"> Женский
+                    </label><br>
+                    <label for="other">
+                        <input id="other" type="radio" name="radio-group-1" value="Другое"> Я живу не в России
+                    </label><br>
+                <label for="field-lang">
+                    Любимый язык программирования:<br>
+                    <select id="field-lang" name="field-lang" required>
+                        <option value="" disabled selected>Выберите язык</option>
+                        <option value="Pascal">Pascal</option>
+                        <option value="C">C</option>
+                        <option value="C++">C++</option>
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="PHP">PHP</option>
+                        <option value="Python">Python</option>
+                        <option value="Java">Java</option>
+                        <option value="Haskell">Haskell</option>
+                        <option value="Clojure">Clojure</option>
+                        <option value="Prolog">Prolog</option>
+                        <option value="Scala">Scala</option>
+                    </select>
+                </label><br>
+                <label for="field-manytext">
+                    Биография:<br>
+                    <textarea id="field-manytext" name="fiel-manytext" placeholder="Ваша биография" required></textarea>
+                </label><br>
+                <label for="check">
+                    <input id="check" type="checkbox" name="check" required>
+                    С контрактом ознакомлен(а)
+                </label><br>
+                <input type="submit" name="save" value="Сохранить">
+            </form>
+        </div>
+
+        <h1 id="important">МЕНЯ ЗОВУТ ВЕРОНИКА</h1>
+    </div>
+    <footer class="page-footer p-3 mt-3">
+        <span>© ВЕРОНИКА РАСТОРГУЕВА</span>
+    </footer>
+</body>
+
+</html>
