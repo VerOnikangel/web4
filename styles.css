@@ -42,7 +42,6 @@ tr:nth-child(even){
 header{
     display: flex;
     flex-direction: column;
-    background-color: none;
     margin: 0px;
     width: 100%;
     background-color: #3b6950;
@@ -55,7 +54,7 @@ main{
 footer{
     width: 100%;
     height: 120px;
-    background-color: saddlebrown;
+    background-color: #06331a;
 }
 
 .my_footer{
@@ -82,7 +81,7 @@ table{
 }
 
 .content{
-    background-color: wheat;
+    background-color: #3e4340;
 }
 
 nav{
