@@ -75,7 +75,7 @@ table{
     margin-top: 20px;
     font-size: large;
     text-align: center;
-    background-color: brown;
+    background-color: #06331a;
     padding: 10px;
     order: 2;
 }
@@ -85,7 +85,7 @@ table{
 }
 
 nav{
-    background-color: chocolate;
+    background-color: #06331a;
 }
 
 /* Mobile version */
