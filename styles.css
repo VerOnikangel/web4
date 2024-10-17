@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: #006400;
+    background-color: #115120;
     margin: 0px;
 }
 
@@ -22,7 +22,7 @@ a{
 }
 
 th{
-    background-color: silver;
+    background-color: #7e9086;
     padding: 5px;
     font-size:small;
 }
@@ -45,11 +45,11 @@ header{
     background-color: none;
     margin: 0px;
     width: 100%;
-    background-color: saddlebrown;
+    background-color: #3b6950;
 }
 
 main{
-    background-color: saddlebrown;
+    background-color: #02411e;
 }
 
 footer{
